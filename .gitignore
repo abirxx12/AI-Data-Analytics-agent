@@ -1,4 +1,39 @@
 .venv/
+venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
 .DS_Store
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+.cache
+.pyre/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+.pythonlibs/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Vercel local
+.vercel/
